@@ -4,7 +4,7 @@
 >
 > Two findings stood out. Post-acute care (care after a hospital stay) explains 36% of the spending gap between counties. And readmissions above the national rate cost an estimated $621M a year.
 
-Live dashboard: [Tableau Public](LINK) | Built with PostgreSQL and Tableau
+Live dashboard: [Tableau Public](https://public.tableau.com/app/profile/sahil.dadhwal7348/viz/WhereMedicaresMoneyGoes/1CostTrend) | Built with PostgreSQL and Tableau
 
 ![Cost trend dashboard](images/cost_trend.png)
 
