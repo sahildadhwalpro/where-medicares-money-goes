@@ -4,7 +4,7 @@
 >
 > Two findings stood out. Post-acute care (care after a hospital stay) explains 36% of the spending gap between counties. And readmissions above the national rate cost an estimated $621M a year.
 
-Live dashboard: [Tableau Public](https://public.tableau.com/app/profile/sahil.dadhwal7348/viz/WhereMedicaresMoneyGoes/1CostTrend) | Built with PostgreSQL and Tableau
+Live dashboard: [Tableau Public](https://public.tableau.com/app/profile/sahil.dadhwal7348/viz/WhereMedicaresMoneyGoes/1CostTrend) | Built with Excel, PostgreSQL and Tableau
 
 ![Cost trend dashboard](images/cost_trend.png)
 
@@ -41,9 +41,10 @@ A few terms I use throughout:
 
 How I built it:
 
-- **PostgreSQL:** I loaded the raw file, cleaned it into 69 columns, and ran 12 data quality checks before doing any analysis. Every number on the dashboard comes from a SQL view, and one script recalculates all of them so anyone can check them.
+- **Excel:** I started by exploring the raw file in Excel. I used filters to understand the 246 columns, see how the national, state and county rows fit together, and find the hidden `*` and `NA` values. That told me what needed cleaning before I moved everything into SQL. I also used Excel to save the USDA rural-urban files as CSV.
+- **PostgreSQL:** I loaded the raw file, cleaned it into 69 columns, and ran 12 data quality checks before doing any analysis. Every number on the dashboard comes from a SQL view.
 - **Tableau:** 3 pages, one question each. I kept the text on screen short and put the sources and calculations in the tooltips.
-- **Double check:** I recalculated the main numbers straight from the raw file in Python, separately from the SQL. They match.
+- **Checking:** one SQL script (`08_key_findings.sql`) recalculates every number on the dashboard, with the expected value written next to each query, so anyone can check them.
 
 ## 3. Executive Summary
 
