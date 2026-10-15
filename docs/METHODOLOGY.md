@@ -15,7 +15,7 @@
 - **County gap**: 90th minus 10th percentile county, counties with 1,000+ people.
 
 ## How the numbers were checked
-Every number on the dashboard is recomputed in `sql/08_key_findings.sql`. The headline numbers were also recomputed from the raw CMS file in Python, separately from the SQL, and match.
+Every number on the dashboard is recomputed in `sql/08_key_findings.sql`, with the expected value written next to each query.
 
 ## Tab 1: Cost trend ("Up 37%, but mostly inflation")
 - US spending per person: $9,191 (2014) to $12,553 (2024) = **+36.6%**.

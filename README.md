@@ -6,8 +6,6 @@
 
 Live dashboard: [Tableau Public](https://public.tableau.com/app/profile/sahil.dadhwal7348/viz/WhereMedicaresMoneyGoes/1CostTrend) | Built with Excel, PostgreSQL and Tableau
 
-![Cost trend dashboard](images/cost_trend.png)
-
 ## 1. Background and Overview
 
 I first came across this data in my Applied Business Analytics class at Clark, where we used it for an assignment. This project isn't that assignment. The more time I spent with the file, the more questions I had that the class never asked. So I started over on my own and built this from scratch.
