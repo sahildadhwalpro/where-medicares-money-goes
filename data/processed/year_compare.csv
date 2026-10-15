@@ -1,0 +1,14 @@
+measure,year_label,sort_order,piece,value
+Medicare Advantage share,2014,1,Medicare Advantage,0.3213
+Medicare Advantage share,2014,2,Traditional Medicare,0.6787
+Medicare Advantage share,2019,1,Medicare Advantage,0.4057
+Medicare Advantage share,2019,2,Traditional Medicare,0.5943
+Medicare Advantage share,2024,1,Medicare Advantage,0.5484
+Medicare Advantage share,2024,2,Traditional Medicare,0.4516
+Spending per person,2014,1,Spending in 2014,9190.6
+Spending per person,2019,1,Spending in 2014,9190.6
+Spending per person,2019,2,Rising prices (inflation),734.55
+Spending per person,2019,3,Real growth,478.66
+Spending per person,2024,1,Spending in 2014,9190.6
+Spending per person,2024,2,Rising prices (inflation),2987.48
+Spending per person,2024,3,Real growth,375.18
